@@ -1,0 +1,157 @@
+html{
+	scroll-behavior: smooth;
+}
+#navbar{
+	background-color:rgb(238, 238, 238);
+}
+
+.nav-link{
+	color: black;
+}
+
+.nav-link:hover{
+	color: #fff;
+}
+
+.cool-link::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #006d77;
+	transition: width .3s;
+}
+
+.cool-link:hover::after{
+	width: 100%;
+	transition: width .3s;
+}
+
+#navbar{
+    background-color: #83c5be;
+}
+.navbar-nav a{
+    color: white;
+}
+.navbar-nav{
+    margin-right: 80px;
+}
+.navbar-brand{
+    margin-left: 80px;
+}
+body{
+    background: #edf6f9;
+}
+.imput-buscar #codigo-eliminar{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #B6F3E2;
+    padding: 10px 10px;
+    width: 300px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    position: relative;
+}
+/**/
+.imput-buscar #codigo-eliminar:focus{
+    width: 380px;
+}
+.imput-buscar #codigo-buscar{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #B6F3E2;
+    padding: 10px 10px;
+    width: 100px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.24s;
+}
+.imput-buscar #codigo-buscar:hover{
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+}
+.contenedor{
+    background: #fff;
+    width: 1600px;
+}
+.contenedo-buscar{
+    width: 800px;
+    height: 100px;
+}
+.fa-bars{
+    color: white;
+}
+.btn-detalles{
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #B6F3E2;
+    padding: 10px 10px;
+    outline: none;
+    border-radius: 24px;
+    
+}
+.contenedor-producto{
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    border-bottom-right-radius: 20px;
+    width: 300px;
+    height: 400px;
+}
+.contenedor-producto-2{
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    border-bottom-right-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+.contenedor-referencia{
+    width: 480px;
+    height: 300px;
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+}
+.contenedor-referencias{
+    margin-top: 100px;
+}
+.contenedor-concurso-vendido{
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    width: 200px;
+}
+/*footer*/
+#footer-2{
+    background-color:   #006d77 ;
+}
+#footer {
+    color: #fff;
+}
+#contenedor-footer{
+    padding-top: 100px;
+}
+#contenedor-footer h5{
+    color: #fff;
+}
+#contenedor-footer h3{
+    color: #C7D3D4;
+    font-size: 20px;
+}
+#contenedor-footer h4{
+    color: #E2EEF0;
+    font-size: 13px;
+}
+.footerp{
+    color: #fff;
+    margin: 20px;
+}
+#helpymes{
+    font-size: x-large;
+}
+.btn-light{
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
